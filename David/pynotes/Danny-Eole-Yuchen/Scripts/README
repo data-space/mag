@@ -1,0 +1,25 @@
+******************************************************************
+			README
+******************************************************************
+Execute scripts in sequential order:
+
+1. `Dataset-MSS-pandas-create dataframe.py`
+2. `Dataset-MSS-pandas-prepare lyrics data.py`
+3. `Dataset-MSS-aggregate data for mining.py`
+
+******************************************************************
+
+Next steps:
+
+	* Clustering using data from `mss_lyrics_pvt_df` data frame.
+	* Aggregate song + lyrics data into single dataFrame
+			(one record per track_id, one column per variable)
+	* Perform PCA on dataset
+	* Predict hotttness based on lyrics, or based on song data
+
+******************************************************************
+Learning Objectives:
+
+	- k-mean clustering
+	- PCA
+	- Supervised learning

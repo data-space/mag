@@ -1,0 +1,33 @@
+***** README *****
+
+DataFrame
+# mss_df.pkl
+	Type: Pandas df
+	Description: Million song data set data (includes non numerical data)
+
+# lyrics_raw_df (former 'mss_lyrics_pvt_df.pkl')
+	Type: Pandas df
+	Description: lyrics data before cleaning stop words and non english words
+
+# lyrics_english_df
+	Type: Pandas df
+	Description: Lyrics df without stop words, english words/songs only
+
+# pc_scores.pkl
+	Type: Numpy array
+	Description: Matrix containing eign vector in columns [Tracks, PC]
+
+# w_matrix.pkl
+	Type: Numpy array
+	Description: Matrix containing [Terms, PC]
+
+CSV
+# custom_stop_words.csv [not used]
+	Manually built list of words to exclude from DTM
+
+# foreign_words.csv
+	List of common foreign words used to spot foreign tracks
+
+# SMART_stop_words.csv
+	Collection stop-word SMART
+
